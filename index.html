@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piedra - Papel - Tijera</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PIEDRA PAPEL O TIJERA </h1>
+    </header>
+    <div class="resultados">
+        <figure>
+            <figcaption id = "text-jugador">JUGADOR</figcaption>
+            <img src="/images/piedra.png" alt="Jugador" id="img-jugador" >
+
+        </figure>
+
+        <figure>
+            <figcaption id="text-pc">COMPUTADORA</figcaption>
+            <img src="/images/papel.png" alt="Jugador" id="img-pc">
+        </figure>
+    </div>
+    <div > 
+        <p id="texto-ganador">Tu has ganado porque elegiste tijeras y la compuradora eligio papel</p>
+    </div>
+    <div >
+            <p id="texto-score">has ganado 5 veces y has perdido 6 veces</p>
+    </div>
+
+    <h3>
+        SELECCIONA UNA DE LAS OPCIONES
+    </h3>
+    <div class="opciones">
+            <figure class="puntero" data-choice="piedra" id="img1">
+                <figcaption>PIEDRA</figcaption>
+                <img src="/images/piedra.png" alt="Jugador"  >
+            </figure>
+            
+            <figure class="puntero" data-choice="papel" id="img2">
+                <figcaption>PAPEL</figcaption>
+                <img src="/images/papel.png" alt="Jugador" >
+            </figure>
+
+            <figure class="puntero" data-choice="tijeras" id="img3">
+                    <figcaption>TIJERA</figcaption>
+                    <img src="/images/tijeras.png" alt="Jugador"  >
+            </figure>            
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
