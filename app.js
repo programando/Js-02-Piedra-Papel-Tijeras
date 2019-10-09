@@ -60,11 +60,11 @@ function PlayerComputer() {
 }
 
 function ChangePlayerImage( EleccionJugador ){
-    ImgJugador.src=`/images/${EleccionJugador}.png`; 
+    ImgJugador.src=`./images/${EleccionJugador}.png`; 
 }
 
 function ChageComputerImage( EleccionPc ){
-    ImgPc.src=`/images/${EleccionPc}.png`; 
+    ImgPc.src=`./images/${EleccionPc}.png`; 
     
 }
 
